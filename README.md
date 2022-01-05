@@ -15,8 +15,8 @@ PWA: progressive web app, app built with web technologies
 
 App.js - parent component
 
-props - sending data to component         
-useState - to dynamically change state of component
+props - sending data from parent to child component         
+useState - to change state of component without using document.getElementByID()
 ``` 
 ## Table of Contents
 
