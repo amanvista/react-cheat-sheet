@@ -2,6 +2,7 @@
 This repository is a cheat sheet to React for daily use. It contain a lot of snippets from my own use / official documentation and i'll improve it soon !  
 It's made for people like me who like to continue have a overview of some snippets.
 
+## rafce - to get function component
 ## TO see
 * React Formik
 * Typescript
