@@ -9,7 +9,7 @@ crao -n <app-name>
 ```
 
 ## React Hook
-* useEffect(function, array) = whenever array changes then function will be run
+* useEffect(function, array) = whenever array changes then function will be run, used for cleaning up files or event listeners
 ## rafce - to get function component
 ## TO see
 * React Formik
