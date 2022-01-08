@@ -7,6 +7,9 @@ It's made for people like me who like to continue have a overview of some snippe
 npm i - g create-react-app-offline
 crao -n <app-name>
 ```
+
+## React Hook
+* useEffect(function, array) = whenever array changes then function will be run
 ## rafce - to get function component
 ## TO see
 * React Formik
@@ -14,7 +17,8 @@ crao -n <app-name>
 
 
 ## My Notes
-``` spread(used to copy object) and rest operator: rest when used in function
+``` 
+spread(used to copy object) and rest operator: rest when used in function
 exports: default and name, 
 Array and Object destructuring
 
