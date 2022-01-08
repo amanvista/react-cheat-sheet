@@ -10,7 +10,7 @@ crao -n <app-name>
 ## React Hook
 * useEffect(function, array) = whenever array changes then function will be run, used for cleaning up files or event listeners
 * useRef() = can be used to manipulate dom
-```
+```javascript
 import React, {useRef} from 'react';
 function App() {
   const inputE1 = useRef();
