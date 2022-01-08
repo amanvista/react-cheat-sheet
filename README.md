@@ -1,7 +1,6 @@
 # 📚 React Cheat Sheet
 This repository is a cheat sheet to React for daily use. It contain a lot of snippets from my own use / official documentation and i'll improve it soon !  
 It's made for people like me who like to continue have a overview of some snippets.
-
 ## React Offline Install
 ```
 npm i - g create-react-app-offline
@@ -10,6 +9,23 @@ crao -n <app-name>
 
 ## React Hook
 * useEffect(function, array) = whenever array changes then function will be run, used for cleaning up files or event listeners
+* useRef() = can be used to manipulate dom
+```
+import React, {useRef} from 'react';
+function App() {
+  const inputE1 = useRef();
+
+  const onButtonClick = ()=>{
+    inputE1.current.focus()
+  }
+  return (
+    <div className="App">
+      <input  ref={inputE1} type="text" />
+      <button onClick={onButtonClick}>Focus the input</button>
+    </div>
+  );
+}
+```
 ## rafce - to get function component
 ## TO see
 * React Formik
