@@ -5,6 +5,7 @@ It's made for people like me who like to continue have a overview of some snippe
 * onClick={ ()=>{addToWatchList(movie)}
 ## Context API
 The React Context API is a way for a React app to effectively produce global variables that can be passed around.
+* used to avoid prop drilling : when parent dont require prop but its child requires it
 * Store - stores object that hold all state data
 * Reducer - function that return State Data
 <img width="977" alt="Screenshot 2022-01-09 at 1 00 27 PM" src="https://user-images.githubusercontent.com/13710287/148673386-fd431216-8593-4ba1-8f87-7c04711e9979.png">
