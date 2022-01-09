@@ -4,7 +4,9 @@ It's made for people like me who like to continue have a overview of some snippe
 
 ## Context API
 The React Context API is a way for a React app to effectively produce global variables that can be passed around.
-
+Store - stores object that hold all state data
+Reducer - function that return State Data
+Reducer - decides how state is transferred to next Data
 ## React Offline Install
 ```
 npm i - g create-react-app-offline
