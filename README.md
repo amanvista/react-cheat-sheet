@@ -1,6 +1,10 @@
 # 📚 React Cheat Sheet
 This repository is a cheat sheet to React for daily use. It contain a lot of snippets from my own use / official documentation and i'll improve it soon !  
 It's made for people like me who like to continue have a overview of some snippets.
+
+## Context API
+The React Context API is a way for a React app to effectively produce global variables that can be passed around.
+
 ## React Offline Install
 ```
 npm i - g create-react-app-offline
