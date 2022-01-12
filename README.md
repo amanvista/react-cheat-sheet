@@ -1,6 +1,13 @@
 # 📚 React Cheat Sheet
 This repository is a cheat sheet to React for daily use. It contain a lot of snippets from my own use / official documentation and i'll improve it soon !  
 It's made for people like me who like to continue have a overview of some snippets.
+## Mongo DB install
+brew tap mongodb/brew
+brew install mongodb-community
+brew services run mongodb-community
+alias mongod='brew services run mongodb-community'
+alias mongod-status='brew services list'
+alias mongod-stop='brew services stop mongodb-community'
 ## OnClick - function with Arguments
 * onClick={ ()=>{addToWatchList(movie)}
 ## Context API
